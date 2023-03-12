@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Minha Página</title>
+	<link rel="stylesheet" href="TDE1.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Minha Página</h1>
+	</header>
+    <main>
+        <article>
+            <h2>Título do Artigo</h2>
+            <p>
+                Esse é um parágrafo com quebra de linha e <strong>negrito</strong> e <em>itálico</em>.
+            </p>
+        </article>
+    
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>joao@example.com</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>maria@example.com</td>
+            </tr>
+        </table>
+    </main>
+    
+    <footer>
+        <h3>Contato</h3>
+        <p>Email: contato@example.com</p>
+    </footer>
+    
+    <script>
+        window.location.replace("outrapagina.html");
+    </script>
+    </body>
+    </html>
